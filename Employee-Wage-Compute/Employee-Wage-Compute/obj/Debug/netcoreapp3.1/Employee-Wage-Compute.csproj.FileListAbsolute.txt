@@ -1,0 +1,13 @@
+C:\Users\HP\source\repos\Employee-Wage-Compute\Employee-Wage-Compute\Employee-Wage-Compute\bin\Debug\netcoreapp3.1\Employee-Wage-Compute.exe
+C:\Users\HP\source\repos\Employee-Wage-Compute\Employee-Wage-Compute\Employee-Wage-Compute\bin\Debug\netcoreapp3.1\Employee-Wage-Compute.deps.json
+C:\Users\HP\source\repos\Employee-Wage-Compute\Employee-Wage-Compute\Employee-Wage-Compute\bin\Debug\netcoreapp3.1\Employee-Wage-Compute.runtimeconfig.json
+C:\Users\HP\source\repos\Employee-Wage-Compute\Employee-Wage-Compute\Employee-Wage-Compute\bin\Debug\netcoreapp3.1\Employee-Wage-Compute.runtimeconfig.dev.json
+C:\Users\HP\source\repos\Employee-Wage-Compute\Employee-Wage-Compute\Employee-Wage-Compute\bin\Debug\netcoreapp3.1\Employee-Wage-Compute.dll
+C:\Users\HP\source\repos\Employee-Wage-Compute\Employee-Wage-Compute\Employee-Wage-Compute\bin\Debug\netcoreapp3.1\Employee-Wage-Compute.pdb
+C:\Users\HP\source\repos\Employee-Wage-Compute\Employee-Wage-Compute\Employee-Wage-Compute\obj\Debug\netcoreapp3.1\Employee-Wage-Compute.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\Employee-Wage-Compute\Employee-Wage-Compute\Employee-Wage-Compute\obj\Debug\netcoreapp3.1\Employee-Wage-Compute.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Employee-Wage-Compute\Employee-Wage-Compute\Employee-Wage-Compute\obj\Debug\netcoreapp3.1\Employee-Wage-Compute.AssemblyInfo.cs
+C:\Users\HP\source\repos\Employee-Wage-Compute\Employee-Wage-Compute\Employee-Wage-Compute\obj\Debug\netcoreapp3.1\Employee-Wage-Compute.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Employee-Wage-Compute\Employee-Wage-Compute\Employee-Wage-Compute\obj\Debug\netcoreapp3.1\Employee-Wage-Compute.dll
+C:\Users\HP\source\repos\Employee-Wage-Compute\Employee-Wage-Compute\Employee-Wage-Compute\obj\Debug\netcoreapp3.1\Employee-Wage-Compute.pdb
+C:\Users\HP\source\repos\Employee-Wage-Compute\Employee-Wage-Compute\Employee-Wage-Compute\obj\Debug\netcoreapp3.1\Employee-Wage-Compute.genruntimeconfig.cache
