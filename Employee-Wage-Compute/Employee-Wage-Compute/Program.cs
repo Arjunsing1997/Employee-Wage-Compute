@@ -4,12 +4,13 @@ namespace Employee_Wage_Compute
 {
     class Program
     {
+        const int FullTime = 1;                                        //creating a local variable
+        const int PartTime = 2;
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee wage Calculation....");
             // Constant Variable
-            int FullTime = 1;                                        //creating a local variable
-            int PartTime = 2;
+            
             int empRatePerHour = 20;
 
             //Local Variables
@@ -20,21 +21,20 @@ namespace Employee_Wage_Compute
             int employeeCheck = random.Next(0, 3);                  // assigning Random value to the variable 
             Console.WriteLine("Random Value: " + employeeCheck);
 
+            //using Case statement 
+            switch (employeeCheck)
+            {
+                case FullTime:
+                    empHrs = empHrs + 8;
+                    break;
 
-            if (employeeCheck == FullTime)                          //Checking whether Employee is Present or Not
-            {
-                Console.WriteLine("Employee is PRESENT");
-                empHrs = 8;
-            }
-            else if (employeeCheck == PartTime)
-            {
-                Console.WriteLine("Part Time Empoyee: ");
-                empHrs = 4;
-            }
-            else
-            {
-                Console.WriteLine("Employess is ABSENT");
-                empHrs = 0;
+                case PartTime:
+                    empHrs = empHrs + 4;
+                    break;
+
+                default:
+                    empHrs = 0;
+                    break;
             }
 
 
