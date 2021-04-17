@@ -13,27 +13,6 @@ namespace Employee_Wage_Compute
         private CompanyEmpWage[] CompanyEmpWageArray;
 
         public EmployeeBuilder()
-<<<<<<< HEAD
-        {
-            this.CompanyEmpWageArray = new CompanyEmpWage[5];
-        }
-
-        public void addCompanyEmpWage(string company, int empRatePerHours, int numOfWorkingDays, int maxHrsPerMonth)
-        {
-            CompanyEmpWageArray[this.numOfCompany] = new CompanyEmpWage(company, empRatePerHours, numOfWorkingDays, maxHrsPerMonth);
-            numOfCompany++;
-        }
-            
-        
-        public void ComputeEmpWage()
-        {
-            for(int i = 0; i < numOfCompany; i++)
-            {
-                CompanyEmpWageArray[i].setTotalEmpWage(this.ComputeEmpWage(this.CompanyEmpWageArray[i]));
-            }
-        }
-
-=======
         {
             this.CompanyEmpWageArray = new CompanyEmpWage[5];
         }
@@ -54,17 +33,11 @@ namespace Employee_Wage_Compute
 
             }
         }
-
->>>>>>> UC10-Multi-Wage-Interface
         private int ComputeEmpWage(CompanyEmpWage companyEmpWage)
         {
             int empHrs = 0, totalEmpHrs = 0, totalWorkingDays = 0;
 
-<<<<<<< HEAD
-            while (totalEmpHrs < companyEmpWage.maxHrsPerMonth && totalWorkingDays < companyEmpWage.numOfWorkingDays)
-=======
             while (totalEmpHrs < companyEmpWage.maxHoursPerMonth && totalWorkingDays < companyEmpWage.numOfWorkingDays)
->>>>>>> UC10-Multi-Wage-Interface
             {
                 totalWorkingDays++;
 
@@ -92,11 +65,6 @@ namespace Employee_Wage_Compute
             } //END of WHILE LOOP
 
             return totalEmpHrs * companyEmpWage.empRatePerHours;
-<<<<<<< HEAD
-=======
-            
->>>>>>> UC10-Multi-Wage-Interface
-
         }
     }
 }
