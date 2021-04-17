@@ -12,7 +12,7 @@ namespace Employee_Wage_Compute
         static void ComputeWage()
         {
             //Local Variables
-            int empHrs = 0, empWage = 0, workingDays = 1, totalEmpWage = 0, totalHrs = 0; 
+            int empHrs = 0, empWage = 0, workingDays = 1, totalEmpWage = 0, totalHrs = 0;
 
             Random random = new Random();                           //Generating Random value
             while (totalHrs < maxWorkingHours && workingDays < maxWorkingDays)
