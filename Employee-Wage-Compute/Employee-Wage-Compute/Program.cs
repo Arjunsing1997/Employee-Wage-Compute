@@ -4,52 +4,15 @@ namespace Employee_Wage_Compute
 {
     class Program
     {
-
-        public const int FullTime = 1;                                        //creating a local variable
-        public const int PartTime = 2;
-        public static int ComputeWage(string company, int empRatePerHours, int numOfWorkingDays, int maxHrsPerMonth)
-        {
-            //Local Variables
-            int empHrs = 0, totalWorkingDays = 1, totalEmpHrs = 0; 
-
-                                       //Generating Random value
-            while (totalEmpHrs < maxHrsPerMonth && totalWorkingDays < numOfWorkingDays)
-            {
-                totalWorkingDays++;
-
-                Random random = new Random();
-                int empCheck = random.Next(0, 3);                      // assigning Random value to the variable 
-
-                //USING SWITCH STATEMENT
-                switch (empCheck)
-                {
-                    case FullTime:
-                        empHrs = 8;
-                        break;
-
-                    case PartTime:
-                        empHrs = 4;
-                        break;
-
-                    default:
-                        empHrs = 0;
-                        break;
-                }
-                totalEmpHrs += empHrs; //calculting emp hours
-                Console.WriteLine("Days#: " + totalWorkingDays + " Emp Hours: " + empHrs);
-                
-            } //END of WHILE LOOP
-
-           int totalEmpWage = totalEmpHrs * empRatePerHours;     //calculating emp total wage
-            Console.WriteLine("Total Employee wage for Company : " + company+ " is: " + totalEmpWage);
-            return totalEmpWage;
-        }
-
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee wage Calculation....");
-            ComputeWage("Dmart",20,2,10);
-            ComputeWage("Reliance", 10, 4, 20);
+            EmployeeBuilder Dmart = new EmployeeBuilder("Dmart", 20, 4, 10);  //company name, emp rate per hour,max days,max hours
+            EmployeeBuilder Reliance = new EmployeeBuilder("Reliance", 10, 4, 20);
+            Dmart.ComputeWage();
+            Console.WriteLine(Dmart.toString());
+            Reliance.ComputeWage();
+            Console.WriteLine(Reliance.toString());
         }
     }
 }
