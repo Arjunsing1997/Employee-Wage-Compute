@@ -4,6 +4,7 @@ namespace Employee_Wage_Compute
 {
     class Program
     {
+
         public const int FullTime = 1;                                        //creating a local variable
         public const int PartTime = 2;
         public static int ComputeWage(string company, int empRatePerHours, int numOfWorkingDays, int maxHrsPerMonth)
